@@ -28,7 +28,8 @@ nav {
   display: flex;
   justify-content: space-between;
   margin-left: 135px;
-  margin-right: 135px; }
+  margin-right: 135px;
+  flex-wrap: wrap; }
   nav li {
     list-style: none; }
     nav li a {
@@ -222,6 +223,8 @@ footer {
   header nav {
     margin-left: 10px;
     margin-right: 10px; }
+    header nav li {
+      margin-right: 10px; }
   header p {
     margin-left: auto !important;
     margin-right: auto !important; }
