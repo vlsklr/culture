@@ -1,0 +1,255 @@
+html, body {
+  padding: 0;
+  margin: 0; }
+
+body {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto-Regular"; }
+
+h2 {
+  font-family: "Playfairdisplay-bold";
+  text-align: center;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px; }
+
+header h2 {
+  margin-bottom: 46px;
+  line-height: 47px;
+  letter-spacing: 1px;
+  font-size: 35px; }
+
+nav {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 135px;
+  margin-right: 135px; }
+  nav li {
+    list-style: none; }
+    nav li a {
+      text-decoration: none;
+      color: black;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 2px;
+      transition: ease-out color 0.15s; }
+      nav li a:hover {
+        color: #FF7931; }
+
+.content_wrapper {
+  text-align: center;
+  background-image: url("img/mg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 47px; }
+  .content_wrapper img {
+    padding-top: 46px; }
+  .content_wrapper h1 {
+    font-size: 72px;
+    line-height: 84px;
+    margin: auto;
+    letter-spacing: 2px;
+    padding-top: 32px;
+    text-transform: uppercase; }
+  .content_wrapper p {
+    margin-left: 35.2%;
+    margin-right: 35.2%;
+    font-size: 14px;
+    line-height: 150%;
+    padding-bottom: 48px;
+    margin-top: 139px; }
+
+.reviews_section h2 {
+  margin-bottom: 20px; }
+
+.review_items_wrapper {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin-left: 9.513%;
+  margin-right: 9.513%;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .review_items_wrapper .review_item {
+    text-align: center;
+    margin-right: 29px;
+    width: 30%; }
+    .review_items_wrapper .review_item img {
+      width: 100%; }
+    .review_items_wrapper .review_item h3 {
+      color: black;
+      transition: ease-out color 0.5s; }
+    .review_items_wrapper .review_item:hover h3 {
+      color: #FF7931; }
+    .review_items_wrapper .review_item:hover p {
+      color: black; }
+    .review_items_wrapper .review_item h3 {
+      font-size: 23px;
+      line-height: 31px;
+      margin-top: 20px;
+      margin-bottom: 11px;
+      font-family: "Playfairdisplay-bold";
+      text-align: left; }
+    .review_items_wrapper .review_item p {
+      text-align: left;
+      font-size: 14px;
+      line-height: 150%;
+      margin-top: 0;
+      z-index: 50; }
+
+.tickets_section {
+  background-color: #F7F7F7;
+  height: 557px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin-top: 65px; }
+
+.ticketc_content_wrapper {
+  text-align: center;
+  background-color: white;
+  width: 707px;
+  height: 707px;
+  margin: auto;
+  border-radius: 360px;
+  margin-top: -65px; }
+  .ticketc_content_wrapper h2 {
+    padding-top: 98px;
+    margin-bottom: 35px; }
+
+.ticket_item h3 {
+  font-size: 23px;
+  line-height: 31px;
+  font-family: "Playfairdisplay-bold";
+  margin-top: 25px;
+  margin-bottom: 0; }
+.ticket_item p {
+  font-size: 14px;
+  line-height: 150%;
+  margin-left: 169px;
+  margin-right: 168px;
+  margin-top: 10px; }
+
+.line p {
+  margin-bottom: 0; }
+
+.line::after {
+  display: inline-block;
+  content: "";
+  width: 100px;
+  color: black;
+  border-bottom: 1px solid #F7F7F7; }
+
+.watch_button {
+  margin-top: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 28px;
+  color: white;
+  background: #FF7931;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  vertical-align: top;
+  font-weight: bold;
+  transition: background 0.5s ease; }
+  .watch_button img {
+    transition: ease-out transform 0.5s;
+    margin-left: 11px; }
+  .watch_button:hover {
+    background: #f1722e; }
+    .watch_button:hover img {
+      transform: translateX(10px); }
+
+footer {
+  background-color: #575757;
+  color: white; }
+  footer h2 {
+    margin-top: 0;
+    padding-top: 73px;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    margin-bottom: 32px; }
+  footer nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 135px;
+    padding-left: 135px;
+    padding-bottom: 45px; }
+    footer nav li a {
+      color: white; }
+
+.social_icons_wrapper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin-left: 44%; }
+  .social_icons_wrapper .soc_item {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 14px;
+    transition: ease-out background-color 0.15s; }
+    .social_icons_wrapper .soc_item:hover {
+      background-color: #FF7931; }
+  .social_icons_wrapper a {
+    margin: auto; }
+
+@media screen and (max-width: 1301px) {
+  .review_items_wrapper {
+    justify-content: space-around; }
+    .review_items_wrapper .review_item h3, .review_items_wrapper .review_item p {
+      text-align: center; } }
+@media screen and (max-width: 1021px) {
+  header nav {
+    margin-left: 10px;
+    margin-right: 10px; }
+  header p {
+    margin-left: auto !important;
+    margin-right: auto !important; }
+
+  .review_items_wrapper .review_item {
+    width: 100%; }
+    .review_items_wrapper .review_item h3, .review_items_wrapper .review_item p {
+      text-align: center; }
+
+  footer nav {
+    padding-left: 10px;
+    padding-right: 10px; }
+  footer .social_icons_wrapper {
+    margin-left: 40%; } }
+@font-face {
+  font-family: "Playfairdisplay-bold";
+  src: url("fonts/Playfairdisplaybold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold; }
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("fonts/Roboto-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
